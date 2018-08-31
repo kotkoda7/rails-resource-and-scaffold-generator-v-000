@@ -76,3 +76,55 @@ Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by ArticlesController#index as HTML
   [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
   Rendered articles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1477ms (Views: 1474.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 73.140.157.37 at 2018-08-31 14:22:05 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-b5ab08b81dbb995e3c16b7c18c11eb094185cfbb7d75b9ed8ddbdba3ffbf7a59.css?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.140.157.37 at 2018-08-31 14:22:06 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/articles/new" for 73.140.157.37 at 2018-08-31 14:22:14 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#new as HTML
+  Rendered articles/_form.html.erb (39.8ms)
+  Rendered articles/new.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 74ms (Views: 67.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/articles" for 73.140.157.37 at 2018-08-31 14:22:20 +0000
+Cannot render console from 73.140.157.37! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XCl4ZcfjCLh1BlVscim2lQ7lQvLHb0dunYAgoyC2rOYg+reZM+I3McTabvnw/y7o2iGB5lDdf0lFYQcOSomQPg==", "article"=>{"title"=>"vava", "body"=>"fldsafl"}, "commit"=>"Create Article"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "articles" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "vava"], ["body", "fldsafl"], ["created_at", "2018-08-31 14:22:20.494366"], ["updated_at", "2018-08-31 14:22:20.494366"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://165.227.31.156:42614/articles/1
+Completed 302 Found in 18ms (ActiveRecord: 4.4ms)
